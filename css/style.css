@@ -1,4 +1,17 @@
-Content-Security-Policy:{
-     default-src :'none'; 
-     img-src 'self' data:;
+
+
+table  {
+  width: 100%;
 }
+td, tr {
+  padding: 8px;
+    }
+th {
+  background-color: #8e7a7a;
+}
+.addform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
