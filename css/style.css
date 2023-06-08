@@ -1,4 +1,12 @@
-Content-Security-Policy:{
-     default-src :'none'; 
-     img-src 'self' data:;
+#home{
+    background-size: cover;
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-image: url('https://i.postimg.cc/fL7MRm8q/Stocksy-woman-writing-laptop-476082-57ab432d3df78cf459975331.jpg');
+}
+.lol{
+    align-items: center;
+    justify-content: center;
+
+ 
 }
