@@ -1,3 +1,4 @@
+
 #home{
     background-size: cover;
     height: 40rem;
@@ -7,6 +8,22 @@
 .lol{
     align-items: center;
     justify-content: center;
-
- 
 }
+
+
+table  {
+  width: 100%;
+}
+td, tr {
+  padding: 8px;
+    }
+th {
+  background-color: #8e7a7a;
+}
+.addform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
