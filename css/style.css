@@ -4,10 +4,21 @@
     height: 40rem;
     background-repeat: no-repeat;
     background-image: url('https://i.postimg.cc/fL7MRm8q/Stocksy-woman-writing-laptop-476082-57ab432d3df78cf459975331.jpg');
+    
 }
-.lol{
+.lol h2 h1{
+    /* display: flex; */
     align-items: center;
     justify-content: center;
+    font-weight: bold;
+}
+button a{
+    text-decoration: none;
+    color:black;
+    
+}
+button{
+    border-radius: 12px;
 }
 
 

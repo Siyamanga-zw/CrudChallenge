@@ -8,7 +8,7 @@ let tableData = JSON.parse(localStorage.getItem('tableData')) || [
         content: 'kjd',
         date: '20 oct 2023',
         image: 'https://i.postimg.cc/C5nm1Gtw/female2.jpg'
-    }
+    },
 ];
 
 renderTable();
