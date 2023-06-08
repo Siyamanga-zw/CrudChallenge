@@ -35,16 +35,22 @@
         <h1 class="addform">Admin Page</h1>
         <br><br>
         <table id="dataTable">
-            <tr>
-                <th>#id</th>
-                <th>Title</th>
-                <th>Author</th>
-                <th>Description</th>
-                <th>Content</th>
-                <th>Date</th>
-                <th>Image</th>
-            </tr>
-        </table>
+          <thead>
+              <tr>
+                  <th>#id</th>
+                  <th>Title</th>
+                  <th>Author</th>
+                  <th>Description</th>
+                  <th>Content</th>
+                  <th>Date</th>
+                  <th>Image</th>
+                  <th>Action</th>
+              </tr>
+          </thead>
+          <tbody>
+              <!-- Table rows will be dynamically generated here -->
+          </tbody>
+      </table>
         <div id="addForm" style="display: none;">
             <h2 class="addform">Add Form</h2>
             <button onclick="saveData()">Save</button>
@@ -60,5 +66,7 @@
     <script>
 
 
+     
+    
 
-      
+
